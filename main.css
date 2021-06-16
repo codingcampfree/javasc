@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body {
+      background-color: #f2f2f2;
+  }
+  
+  .container-full {
+    line-height: 1.3;
+    padding: 5px 0;
+  }
+  
+  .container-nonfull {
+    margin: 0px auto;
+    width: 1260px;
+    max-width: 90%;
+  }
+  
+  .green {
+      background-color: #008044;
+      height: 100vh;
+  }
+  .orange {
+      background-color: #e9573f;
+      height: 100vh;
+  }
+  
+  form.form {
+      margin-top: 10%;
+      width: 450px;
+      background-color: #fff;
+      border-radius: 6px;
+      display: block;
+      padding:50px 10px 10px 10px;
+      box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1), 1px 1px 3px 1px rgba(0, 0, 0, 0.1), -1px -1px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form input {
+      display: block;
+      margin: 4px auto;
+  }
+  
+  .form input[type="text"], input[type="password"]{
+      width: 300px;
+      -webkit-transform: translate(1);
+      transform: translate(1);
+      -webkit-transition: 0.4s ease-in-out;
+      transition: 0.4s ease-in-out;
+      margin-bottom: 7px;
+      border: 1px solid gray;
+      padding: 10px;
+      font-size: 18px;
+  }
+  .form input[type="submit"] {
+      padding: 10px;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 10px 18px;
+      font-size: 18px;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      background-color: #fff;
+      border:1px solid royalblue;
+      color:royalblue;
+  }
+  .form input[type="text"]:focus, input[type="password"]:focus{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      background: rgba(0,0,0,0.15);
+  }
+  .form input[type="submit"]:hover,input[type="submit"]:focus {
+    background-color: royalblue;
+    color:#fff;
+    border-radius: 4px;
+  }
+  .text_error{
+    background-color: pink;
+    font-size: 19px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Aaargh';
+    text-align: center;
+    color:red;
+  }
+  .head-form{
+    text-align: center;
+    font-size: 16px;
+    padding: 7px;
+    display: block;
+    width: 70%;
+    margin: 0 auto 15px auto;
+    font-family: 'aaargh';
+    border-radius: 8px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.1);
+  }
+  .welldone{
+    background-color: lightgreen;
+    color:green;
+    border:1px solid seagreen;
+    font-family: 'aaargh';
+    width: 75%;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  .hint{
+    background-color: pink;
+    color:red;
+    display: none;
+    text-align: center;
+    border:1px solid red;
+    font-family: 'aaargh';
+    width: 75%;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  
